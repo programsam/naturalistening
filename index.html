@@ -4,7 +4,56 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="description" content="Ada May Brown is a psychic medium in the Athens, Tennessee area in the United States." />
+<meta name="keywords" content="psychic, medium, spirits, help, guide, path, reading, chakra, intuition, athens, tennessee, natural, listening, change, health, mental, physical, emotional, comfort, service, connect, love, butterfly, happy, self, ego, aware, discover, divine, god, light" />
 <title>Earth Template</title>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script language="javascript">
+$(document).ready(function()
+{
+	
+		$('#content').load('/aboutada.html'); 
+
+		
+		$("a#aboutada").click(function() {
+     		$('#content').load("/aboutada.html");
+		});
+		
+		$("a#nl").click(function() {
+     		$('#content').load("/nl.html");
+		});
+		
+		$("a#butterfly").click(function() {
+			$('#content').load("/like-a-butterfly.html");
+		});
+		
+		$("a#book-list").click(function() {
+			$('#content').load("/book-list.html");
+		});
+		
+		$("a#making-connections").click(function() {
+			$('#content').load("/making-connections.html");
+		})
+		
+		$("a#links").click(function() {
+			$('#content').load("/links.html");
+		});
+		
+		$("a#testimonials").click(function() {
+			$('#content').load("/testimonials.html");
+		});
+		
+		$("a#services").click(function() {
+			$('#content').load("/services.html");
+		});
+		
+		$("div#header_").click(function() {
+			$('#content').load("/aboutada.html");
+		});
+		
+		$('a').css( 'cursor', 'pointer' );
+	});
+</script>
 </head>
 <body>
 
