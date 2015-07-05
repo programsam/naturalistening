@@ -9,3 +9,7 @@ body {
 .main {
   padding-top: 30px;
 }
+
+.navbar-inverse {
+	background: #3EAC3E
+}
