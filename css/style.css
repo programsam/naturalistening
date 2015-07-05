@@ -11,5 +11,6 @@ body {
 }
 
 .navbar-inverse {
-	background: #3EAC3E
+	background: #3EAC3E;
+	color: black
 }
