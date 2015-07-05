@@ -25,6 +25,56 @@
 	
 	<link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
 
+	<script language="javascript">
+	$(document).ready(function()
+	{
+	
+		$('#content').load('/aboutada.html'); 
+
+		
+		$("a#aboutada").click(function() {
+     		$('#content').load("/aboutada.html");
+		});
+		
+		$("a#nl").click(function() {
+     		$('#content').load("/nl.html");
+		});
+		
+		$("a#butterfly").click(function() {
+			$('#content').load("/like-a-butterfly.html");
+		});
+		
+		$("a#book-list").click(function() {
+			$('#content').load("/book-list.html");
+		});
+		
+		$("a#making-connections").click(function() {
+			$('#content').load("/making-connections.html");
+		})
+		
+		$("a#links").click(function() {
+			$('#content').load("/links.html");
+		});
+		
+		$("a#testimonials").click(function() {
+			$('#content').load("/testimonials.html");
+		});
+		
+		$("a#services").click(function() {
+			$('#content').load("/services.html");
+		});
+		
+		$("a#workshops").click(function() {
+			$('#content').load("/workshops.html");
+		});
+		
+		$("div#header_").click(function() {
+			$('#content').load("/aboutada.html");
+		});
+		
+		$('a').css( 'cursor', 'pointer' );
+	});
+	</script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -126,7 +176,7 @@
 					</div>		
 				</div>
 			</div>
-			<div class="col-lg-8 main">
+			<div class="col-lg-8 main" id="main">
 			    This is where the content goes.
 			</div>
 		</div>
