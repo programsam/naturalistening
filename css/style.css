@@ -18,7 +18,7 @@ body {
 	background: #3EAC3E;
 }
 
-.navbar-inverse .navbar-nav>li>ul>li>a {
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
   color: #000000;
 }
 
