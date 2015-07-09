@@ -39,8 +39,6 @@
 		
 		$("a#aboutada").click(function() {
      		$('#content').load("/aboutada.html");
-     		$('#navbar').collapse('hide');
-     		$('contenthead').scrollIntoView();
 		});
 		
 		$("a#nl").click(function() {
@@ -98,12 +96,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="javascript:" id="aboutada">About</a></li>
-            <li><a href="javascript:" id="nl">Natural Listening</a></li>
-            <li><a href="javascript:" id="testimonials">Testimonials</a></li>
-            <li><a href="javascript:" id="services">Services</a></li>
-            <li><a href="javascript:" id="workshops">Workshops</a></li>
-            <li><a href="javascript:" id="blog">Blog</a></li>
+            <li><a class="navbarlink" href="javascript:" id="aboutada">About</a></li>
+            <li><a class="navbarlink" href="javascript:" id="nl">Natural Listening</a></li>
+            <li><a class="navbarlink" href="javascript:" id="testimonials">Testimonials</a></li>
+            <li><a class="navbarlink" href="javascript:" id="services">Services</a></li>
+            <li><a class="navbarlink" href="javascript:" id="workshops">Workshops</a></li>
+            <li><a class="navbarlink" href="javascript:" id="blog">Blog</a></li>
           <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
 	          	aria-haspopup="true" aria-expanded="false">Ada's Insights <span class="caret"></span></a>
