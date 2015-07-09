@@ -32,6 +32,10 @@
 	{
 	
 		$('#content').load('/aboutada.html'); 
+		
+		$('a.navbarlink').click(function() {
+			$('#navbar').collapse('hide')
+		});
 
 		$("a#blog").click(function() {
 			window.open("http://naturallisteninglisteningwithlove.blogspot.com/");
@@ -106,10 +110,10 @@
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
 	          	aria-haspopup="true" aria-expanded="false">Ada's Insights <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-		         	<li><a href="javascript:" id="butterfly">Like a Butterfly</a></li>
-					<li><a href="javascript:" id="book-list">Book Links</a></li>
-					<li><a href="javascript:" id="making-connections">Making Connections</a></li>
-					<li><a href="javascript:" id="links">Links</a></li>
+		         	<li><a class="navbarlink" href="javascript:" id="butterfly">Like a Butterfly</a></li>
+					<li><a class="navbarlink" href="javascript:" id="book-list">Book Links</a></li>
+					<li><a class="navbarlink" href="javascript:" id="making-connections">Making Connections</a></li>
+					<li><a class="navbarlink" href="javascript:" id="links">Links</a></li>
 	          </ul>
 			</li>
         </ul>
