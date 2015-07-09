@@ -14,6 +14,10 @@ body {
 	background: #3EAC3E;
 }
 
+.dropdown-menu {
+	background: #3EAC3E;
+}
+
 .navbar-inverse .navbar-nav>li>a {
   color: #000000;
 }
