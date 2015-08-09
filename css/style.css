@@ -2,16 +2,13 @@ body {
 	padding-top: 30px;
 }
 
-.container {
-	background: url(images/bg.jpg) no-repeat;
-}
-
 .sidebar {
 	padding-top: 30px;
 }
 
 .main {
 	padding-top: 30px;
+	background: url(images/bg.jpg) no-repeat;
 }
 
 .navbar-inverse {
