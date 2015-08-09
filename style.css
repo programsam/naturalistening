@@ -2,7 +2,6 @@ body {
 font-family: Arial, sans-serif; 
 line-height: 1.4;
 font-size: 12px;
-background: #e9f6fd url(images/bg.jpg) repeat-x;
 margin: 0;
 padding: 0;
 }
@@ -56,6 +55,10 @@ font-weight: 100;
 }
 .menu ul li a:hover {
 color: #fff;
+}
+
+.container {
+	background-image: url(images/bg.jpg) no-repeat;
 }
 
 #breadcrumbs {
