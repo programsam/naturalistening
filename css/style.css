@@ -5,6 +5,11 @@ body {
 	padding-top: 120px;
 }
 
+.main > a:link {
+	text-decoration: none;
+	color: black
+}
+
 .main {
 	padding-top: 100px;
 }
