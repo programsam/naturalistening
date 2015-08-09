@@ -1,5 +1,8 @@
 body {
 	padding-top: 30px;
+}
+
+.container {
 	background: url(images/bg.jpg) no-repeat;
 }
 
