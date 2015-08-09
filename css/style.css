@@ -5,7 +5,7 @@ body {
 	padding-top: 120px;
 }
 
-.main > a:link {
+.main > a {
 	text-decoration: none;
 	color: black
 }
