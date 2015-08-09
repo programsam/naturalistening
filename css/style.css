@@ -8,7 +8,10 @@ body {
 
 .main {
 	padding-top: 30px;
-	background: url(images/bg.jpg);
+}
+
+.imghead {
+	background: url(images/bg.jpg); height: 50px; width: 100%
 }
 
 .navbar-inverse {
