@@ -2,11 +2,11 @@ body {
 font-family: Arial, sans-serif; 
 line-height: 1.4;
 font-size: 12px;
-background: #e9f6fd url(images/bg.png) repeat-x;
+background: #e9f6fd url(images/bg.jpg) repeat-x;
 margin: 0;
 padding: 0;
 }
-
+ 
 a { text-decoration: none;}
 a:hover { text-decoration: underline; }
 h1 { margin: 0; padding: 0; }
