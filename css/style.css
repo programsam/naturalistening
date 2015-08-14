@@ -6,12 +6,15 @@ body {
 }
 
 .sidebar {
-	padding-top: 120px;
+	padding-top: 150px;
 }
 
 @media (max-width: 480px) { 
 	.main {
-		padding-top: 75px;
+		padding-top: 0px;
+	}
+	.sidebar {
+		padding-top: 0px;
 	}
 }
 
