@@ -7,16 +7,7 @@
 }
 
 
-@media (max-width: 767px) { 
-	.main {
-		padding-top: 0px;
-	}
-	.sidebar {
-		padding-top: 96px;
-	}
-}
-
-@media (min-width: 600px) { 
+@media (max-width: 600px) { 
 	.main {
 		padding-top: 0px;
 	}
