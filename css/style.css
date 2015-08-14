@@ -1,17 +1,23 @@
 body {
 }
 
+.main {
+	padding-top: 150px;
+}
+
 .sidebar {
 	padding-top: 120px;
+}
+
+@media (max-width: 480px) { 
+	.main {
+		padding-top: 75px;
+	}
 }
 
 .main > a {
 	text-decoration: none;
 	color: black
-}
-
-.main {
-	padding-top: 100px;
 }
 
 .navbar-inverse {
