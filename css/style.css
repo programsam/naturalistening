@@ -1,6 +1,6 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-#content {
+#maincontent {
 	z-index: -200;
 }
