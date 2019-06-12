@@ -1,10 +1,9 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-div.container#topimage {
-	width: 100%;
-	height: 100px;
-	background-size: cover;
+#specially-identified-div {
+	height: 0px;
+	width: 0px;
 }
 
 #content {
