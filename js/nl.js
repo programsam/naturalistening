@@ -4,18 +4,38 @@ $(document).ready(function()
   $('#content').load('/aboutada.html');
   $("body").scrollTop(0);
 
-  $('a.navbarlink').click(function() {
-    $('#navbar').collapse('hide')
+  //
+  // Handlers for the various menu
+  // options; when clicked, what they do.
+
+  $("a#aboutada").click(function() {
+      $('#content').load("/aboutada.html");
+      $("body").scrollTop(0);
+  });
+
+  $("a#testimonials").click(function() {
+    $('#content').load("/testimonials.html");
+    $("body").scrollTop(0);
+  });
+
+  $("a#services").click(function() {
+    $('#content').load("/services.html");
+    $("body").scrollTop(0);
+  });
+
+  $("a#workshops").click(function() {
+    $('#content').load("/workshops.html");
+    $("body").scrollTop(0);
   });
 
   $("a#blog").click(function() {
     window.open("http://naturallisteninglisteningwithlove.blogspot.com/");
   });
 
-  $("a#aboutada").click(function() {
-      $('#content').load("/aboutada.html");
-      $("body").scrollTop(0);
-  });
+  //
+  // DROPDOWN
+  // Handlers for the various drop-down
+  // menu options and what they do.
 
   $("a#nl").click(function() {
       $('#content').load("/nl.html");
@@ -42,19 +62,8 @@ $(document).ready(function()
     $("body").scrollTop(0);
   });
 
-  $("a#testimonials").click(function() {
-    $('#content').load("/testimonials.html");
-    $("body").scrollTop(0);
-  });
 
-  $("a#services").click(function() {
-    $('#content').load("/services.html");
-    $("body").scrollTop(0);
-  });
 
-  $("a#workshops").click(function() {
-    $('#content').load("/workshops.html");
-    $("body").scrollTop(0);
-  });
+
 
 });
