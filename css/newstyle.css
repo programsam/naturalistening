@@ -1,11 +1,6 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-#specially-identified-div {
-	height: 0px;
-	width: 0px;
-}
-
 #content {
 	z-index: -200;
 }
