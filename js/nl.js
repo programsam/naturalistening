@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-  $('##maincontent').load('/aboutada.html');
+  $('#maincontent').load('/aboutada.html');
   $("body").scrollTop(0);
 
   //
