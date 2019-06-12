@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-  $('#content').load('/aboutada.html');
+  $('##maincontent').load('/aboutada.html');
   $("body").scrollTop(0);
 
   //
@@ -8,22 +8,22 @@ $(document).ready(function()
   // options; when clicked, what they do.
 
   $("a#aboutada").click(function() {
-      $('#content').load("/aboutada.html");
+      $('##maincontent').load("/aboutada.html");
       $("body").scrollTop(0);
   });
 
   $("a#testimonials").click(function() {
-    $('#content').load("/testimonials.html");
+    $('##maincontent').load("/testimonials.html");
     $("body").scrollTop(0);
   });
 
   $("a#services").click(function() {
-    $('#content').load("/services.html");
+    $('##maincontent').load("/services.html");
     $("body").scrollTop(0);
   });
 
   $("a#workshops").click(function() {
-    $('#content').load("/workshops.html");
+    $('##maincontent').load("/workshops.html");
     $("body").scrollTop(0);
   });
 
@@ -37,27 +37,27 @@ $(document).ready(function()
   // menu options and what they do.
 
   $("a#nl").click(function() {
-      $('#content').load("/nl.html");
+      $('##maincontent').load("/nl.html");
       $("body").scrollTop(0);
   });
 
   $("a#butterfly").click(function() {
-    $('#content').load("/like-a-butterfly.html");
+    $('##maincontent').load("/like-a-butterfly.html");
     $("body").scrollTop(0);
   });
 
   $("a#book-list").click(function() {
-    $('#content').load("/book-list.html");
+    $('##maincontent').load("/book-list.html");
     $("body").scrollTop(0);
   });
 
   $("a#making-connections").click(function() {
-    $('#content').load("/making-connections.html");
+    $('##maincontent').load("/making-connections.html");
     $("body").scrollTop(0);
   })
 
   $("a#links").click(function() {
-    $('#content').load("/links.html");
+    $('##maincontent').load("/links.html");
     $("body").scrollTop(0);
   });
 
