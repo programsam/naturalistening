@@ -4,6 +4,7 @@
 #topimage {
 	width: 100%;
 	height: 100px;
+	background: url(images/banner-large.jpg);
 	background-size: cover;
 }
 
