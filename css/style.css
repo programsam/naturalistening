@@ -1,46 +1,6 @@
-.main {
-	padding-top: 150px;
-}
+// Customized CSS for our changes to the base style sheet
+// In an ideal world, this file remains empty.
 
-.sidebar {
-	padding-top: 170px;
-}
-
-
-@media (max-width: 768px) { 
-	.main {
-		padding-top: 0px;
-	}
-	.sidebar {
-		padding-top: 96px;
-		width: 100%
-	}
-}
-
-.main > a {
-	text-decoration: none;
-	color: black
-}
-
-.navbar-inverse {
-	background: #d4e7ed;
-}
-
-.dropdown-menu {
-	background: #d4e7ed;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-	color: #000000;
-	cursor: pointer;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-	color: #000000;
-	cursor: pointer;
-}
-
-.navbar-inverse .navbar-brand {
-	color: #000000;
-	cursor: pointer;
+#content {
+	z-index: -200;
 }
