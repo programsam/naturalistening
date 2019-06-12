@@ -1,6 +1,7 @@
 $(document).ready(function()
 {
 
+  $('#nav-aboutada').addClass('active');
   $('#content').load('/aboutada.html');
   $("body").scrollTop(0);
 
