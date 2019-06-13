@@ -18,6 +18,8 @@ function syncToHash() {
     pageChange("nl.html");
   } else if (hash === "butterfly") {
     pageChange("like-a-butterfly.html");
+  } else if (hash === "book-links") {
+    pageChange("book-links");
   } else if (hash === "making-connections") {
     pageChange("making-connections.html");
   } else if (hash === "links") {
@@ -34,5 +36,5 @@ $(document).ready(function()
   $(window).bind('hashchange',function(event){
     syncToHash();
   });
-  
+
 });
