@@ -10,6 +10,18 @@ function syncToHash() {
     pageChange("aboutada.html")
   } else if (hash === "testimonials") {
     pageChange("testimonials.html");
+  } else if (hash === "services") {
+    pageChange("services.html");
+  } else if (hash === "workshops") {
+    pageChange("workshops.html");
+  } else if (hash === "nl") {
+    pageChange("nl.html");
+  } else if (hash === "butterfly") {
+    pageChange("like-a-butterfly.html");
+  } else if (hash === "making-connections") {
+    pageChange("making-connections.html");
+  } else if (hash === "links") {
+    pageChange("links.html");
   } else {
     pageChange("aboutada.html")
   }
