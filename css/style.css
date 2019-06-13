@@ -3,6 +3,7 @@
 
 #currentPage {
 	z-index: -200;
+	martin-top: 500px;
 }
 
 .card {
