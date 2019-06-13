@@ -6,9 +6,9 @@ function pageChange(filename) {
 
 $(document).ready(function()
 {
-  if (location.hash === "aboutada") {
+  if (location.hash === "#aboutada") {
     pageChange("aboutada.html")
-  } else if (location.hash === "testimonials") {
+  } else if (location.hash === "#testimonials") {
     pageChange("testimonials.html");
   } else {
     pageChange("aboutada.html")
