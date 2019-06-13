@@ -1,12 +1,11 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-.currentPage {
-	z-index: -200;
-	martin-top: 500px;
-}
-
 .card {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+#sidebar {
+	z-index: 500;
 }
