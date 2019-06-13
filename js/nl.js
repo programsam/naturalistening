@@ -4,15 +4,15 @@ function pageChange(filename) {
   $("#maincontent").load(filename);
 }
 
-if (location.hash === "aboutada") {
-  pageChange("aboutada.html")
-} else if (location.hash === "testimonials") {
-  pageChange("testimonials.html");
-} else {
-  pageChange("aboutada.html")
-}
-// $(document).ready(function()
-// {
+$(document).ready(function()
+{
+  if (location.hash === "aboutada") {
+    pageChange("aboutada.html")
+  } else if (location.hash === "testimonials") {
+    pageChange("testimonials.html");
+  } else {
+    pageChange("aboutada.html")
+  }
 //   pageChange("/aboutada.html");
 //
 //   //
