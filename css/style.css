@@ -1,7 +1,7 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-#currentPage {
+.currentPage {
 	z-index: -200;
 	martin-top: 500px;
 }
