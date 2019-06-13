@@ -1,6 +1,11 @@
+
+function pageChange() {
+  $("body").scrollTop(0);
+}
+
 $(document).ready(function()
 {
-  $('#maincontent').load('/aboutada.html');
+  $("#maincontent").load("/aboutada.html");
   $("body").scrollTop(0);
 
   //
