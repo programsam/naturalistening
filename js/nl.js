@@ -4,20 +4,24 @@ function pageChange(filename) {
   $("#maincontent").load(filename);
 }
 
+function syncToHash() {
+  var hash = location.hash.replace('#','');
+  if (hash === "aboutada") {
+    pageChange("aboutada.html")
+  } else if (hash === "testimonials") {
+    pageChange("testimonials.html");
+  } else {
+    pageChange("aboutada.html")
+  }
+}
+
 $(document).ready(function()
 {
+  syncToHash();
 
   $(window).bind('hashchange',function(event){
-    var hash = location.hash.replace('#','');
-    if (hash === "aboutada") {
-      pageChange("aboutada.html")
-    } else if (hash === "testimonials") {
-      pageChange("testimonials.html");
-    } else {
-      pageChange("aboutada.html")
-    }
+    syncToHash();
   });
-
 
 //
 //   //
