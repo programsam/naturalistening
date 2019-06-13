@@ -4,3 +4,8 @@
 #maincontent {
 	z-index: -200;
 }
+
+.card {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
