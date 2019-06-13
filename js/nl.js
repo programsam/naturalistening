@@ -6,14 +6,19 @@ function pageChange(filename) {
 
 $(document).ready(function()
 {
-  if (location.hash === "#aboutada") {
-    pageChange("aboutada.html")
-  } else if (location.hash === "#testimonials") {
-    pageChange("testimonials.html");
-  } else {
-    pageChange("aboutada.html")
-  }
-//   pageChange("/aboutada.html");
+
+  $(window).bind('hashchange',function(event){
+    var hash = location.hash.replace('#','');
+    if (hash === "aboutada") {
+      pageChange("aboutada.html")
+    } else if (hash === "testimonials") {
+      pageChange("testimonials.html");
+    } else {
+      pageChange("aboutada.html")
+    }
+  });
+
+
 //
 //   //
 //   // Handlers for the various menu
