@@ -1,7 +1,7 @@
 // Customized CSS for our changes to the base style sheet
 // In an ideal world, this file remains empty.
 
-.card {
+DIV.card {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
