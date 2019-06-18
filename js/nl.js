@@ -20,8 +20,6 @@ function syncToHash() {
     pageChange("like-a-butterfly.html");
   } else if (hash === "book-list") {
     pageChange("book-list.html");
-  } else if (hash === "making-connections") {
-    pageChange("making-connections.html");
   } else if (hash === "links") {
     pageChange("links.html");
   } else {
