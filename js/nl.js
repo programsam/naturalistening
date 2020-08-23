@@ -3,6 +3,10 @@ function pageChange(filename) {
   $("#maincontent").load(filename);
   $('.navbar-collapse').addClass('collapse');
   $('.navbar-collapse').removeClass('show');
+
+  //animated scroll to the content the user just selected
+  var contentAnchor = $("a[name='content']");
+  $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 
 function syncToHash() {
