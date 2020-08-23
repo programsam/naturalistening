@@ -6,7 +6,7 @@ function pageChange(filename) {
 
   //animated scroll to the content the user just selected
   var contentAnchor = $("a[name='content']");
-  $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+  $('html,body').animate({scrollTop: contentAnchor.offset().top},'slow');
 }
 
 function syncToHash() {
