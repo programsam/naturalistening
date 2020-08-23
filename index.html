@@ -63,7 +63,14 @@
       </div>
     </nav>
 
-  	<div class="col-lg-4 col-md-4 col-sm-4 float-right mt-2" id="sidebar">
+    <!-- This is the div for the main content column. It comes first because we
+        go right to left.  Do NOT move it to the end, even if it makes more sense
+        from a coding perspective.  Float right should not be necessary if the sidebar
+        is the second column... -->
+    <div class="col-lg-8 col-md-8 col-sm-8 mt-3" id="maincontent">
+    </div>
+
+  	<div class="col-lg-4 col-md-4 col-sm-4 mt-2" id="sidebar">
 
       <!-- PAY FOR A READING -->
       <div class="my-2 card">
@@ -220,11 +227,7 @@
   			</ul>
       </div>
 
-      <!-- This div is for the sidebar. Do not delete! -->
+      <!-- This ending div is for the sidebar. Do not delete! -->
     </div>
-
-    <div class="col-lg-8 col-md-8 col-sm-8 mt-3" id="maincontent">
-    </div>
-
   </body>
 </html>
