@@ -4,9 +4,9 @@ function pageChange(filename) {
   $('.navbar-collapse').addClass('collapse');
   $('.navbar-collapse').removeClass('show');
 
-  //animated scroll to the content the user just selected
-  var contentAnchor = $("a[name='content']");
-  $('html,body').animate({scrollTop: contentAnchor.offset().top},'slow');
+  //animated scroll to the main content container
+  //so the user can read the content they just selected
+  $('html,body').animate({scrollTop: $('#maincontent').offset().top}, 'slow');
 }
 
 function syncToHash() {
