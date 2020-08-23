@@ -1,7 +1,8 @@
 
 function pageChange(filename) {
-  $("body").scrollTop(0);
   $("#maincontent").load(filename);
+  $('.navbar-collapse').addClass('collapse');
+  $('.navbar-collapse').removeClass('show');
 }
 
 function syncToHash() {
