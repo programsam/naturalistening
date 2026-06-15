@@ -70,7 +70,11 @@
     			    pay for a reading
       			</h5>
       			<div class="card-body">
-      				Click the link below to pay for a one-hour reading. Readings are $55.00.
+      				Click the link below to pay for a one-hour reading. Readings are $55.00.  
+              Please send an email to Ada with the times of the day and days of the week that best suit 
+              your schedule for a reading. She will contact you within 24 hours with days and times that 
+              best suit both your schedules. Your payment in advance holds that time on her schedule. 
+              Thank you! 
       			</div>
             <div class="card-footer">
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -162,34 +166,32 @@
       			<h5 class="card-header">
               mailing list
       			</h5>
-            <form action="//naturallistening.us11.list-manage.com/subscribe/post?u=9c023f28f7df68f94d8e06e75&amp;id=52bcbfdc17"
-              method="post" id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form" class="validate">
+          <form action="https://naturallistening.us11.list-manage.com/subscribe/post" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+              <input type="hidden" name="u" value="9c023f28f7df68f94d8e06e75">
+              <input type="hidden" name="id" value="52bcbfdc17">
+
               <ul class="list-group list-group-flush">
-                <li class="list-group-item form-group">
-                  <label for="mce-EMAIL">Email</label>
-                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
-                </li>
-                <li class="list-group-item form-group">
-                  <label for="mce-FNAME">First Name</label>
-                  <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-                </li>
-                <li class="list-group-item form-group">
-                  <label for="mce-LNAME">Last Name</label>
-                  <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
-                </li>
-                <li class="list-group-item">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
-                </li>
-                <li class="list-group-item">
-                  <div id="mce-success-response" class="response alert alert-success" style="display: none" />
-                  <div id="mce-error-response" class="response alert alert-error" style="display: none" />
-                </li>
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9c023f28f7df68f94d8e06e75_52bcbfdc17" tabindex="-1" value=""></div>
+                  <li class="list-group-item form-group">
+                      <label for="mce-EMAIL">Email <span class="asterisk">*</span></label>
+                      <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" required>
+                  </li>
+                  <li class="list-group-item form-group">
+                      <label for="mce-FNAME">First Name</label>
+                      <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+                  </li>
+                  <li class="list-group-item form-group">
+                      <label for="mce-LNAME">Last Name</label>
+                      <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+                  </li>
+                  <li class="list-group-item">
+                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+                  </li>
+                  
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                      <input type="text" name="b_9c023f28f7df68f94d8e06e75_52bcbfdc17" tabindex="-1" value="">
+                  </div>
               </ul>
-              <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-              <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            </form>
+          </form>
           </div>
 
           <!-- PRODUCTS -->
